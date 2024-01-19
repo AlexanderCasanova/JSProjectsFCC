@@ -1,0 +1,144 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: rgb(0, 35, 102);
+    background: linear-gradient(90deg, rgba(0, 35, 102, 1) 0%, rgba(30, 115, 176, 1) 47%, rgba(0, 255, 242, 1) 100%);
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.busqueda {
+    text-align: center;
+}
+
+.busqueda h3 {
+    color: #333;
+}
+
+.busqueda-items {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#search-input {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.pokemonData-items{
+    padding: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #888;
+}
+#search-button {
+    padding: 8px 12px;
+    background-color: #4ca3af; /* Amarillo-naranja */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+#search-button:hover {
+    background-color: #3498db; /* Tonos más oscuros para resaltar */
+}
+
+.pokemonData {
+    margin-top: 20px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #75dddd6c;
+}
+
+#sprite-container {
+    margin-top: 15px;
+}
+
+#sprite-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+#types {
+    margin-top: 10px;
+}
+
+#types span {
+    display: inline-block;
+    padding: 6px;
+    margin: 2px;
+    border-radius: 4px;
+    background-color: #4ca3af; /* Verde */
+    color: #fff;
+}
+
+.pokemonStats {
+    margin-top: 20px;
+    background-color: #3498db; /* Azul */
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    background-color: #3498db; /* Mismo azul que el de .pokemonStats */
+    color: #fff;
+}
+
+thead {
+    background-color: #4ca3af;
+    color: #fff;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px; /* Aumentado para mayor espacio */
+    text-align: center;
+}
+
+th {
+    text-transform: uppercase;
+}
+
+th:hover {
+    background-color: #258a97;
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        max-width: 100%; /* Hace que el contenedor sea 100% del ancho */
+    }
+
+    #search-input,
+    #search-button {
+        width: 100%; /* O ajusta según sea necesario */
+    }
+
+    #types span {
+        /* ... Ajustes adicionales para los types en pantallas pequeñas ... */
+        display: block;
+        margin: 5px 0;
+    }
+}
