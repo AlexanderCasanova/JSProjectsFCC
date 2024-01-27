@@ -1,4 +1,4 @@
-### FreeCodeCamp JavaScript Certification Exercises
+# FreeCodeCamp JavaScript Certification Exercises
 Este proyecto contiene una serie de ejercicios en JavaScript propuestos por FreeCodeCamp como parte de su programa de certificación en JavaScript. Estos ejercicios abarcan una variedad de conceptos y temas clave en JavaScript, desde los fundamentos básicos hasta tópicos más avanzados.
 
 ## Descripción
