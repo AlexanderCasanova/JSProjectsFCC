@@ -9,8 +9,12 @@ El principal objetivo de estos proyectos es proporcionar una serie de ejercicios
 Estructura del Proyecto
 El proyecto está estructurado de la siguiente manera:
 
-/fcc-1: Build a palindrome checker project
-/fcc-2: Build a roman numeral converter project 
-/fcc-3: Build a telephone number validator project
-/fcc-4: Build a cash register project
-/fcc-5: Build a pokemon search app project
+/fcc-1: Build a palindrome checker project  
+
+/fcc-2: Build a roman numeral converter project  
+
+/fcc-3: Build a telephone number validator project  
+
+/fcc-4: Build a cash register project  
+
+/fcc-5: Build a pokemon search app project 
